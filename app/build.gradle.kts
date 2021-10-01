@@ -72,10 +72,25 @@ dependencies {
     implementation(Config.Libs.Androidx.materialDesign)
     implementation(Config.Libs.Androidx.multidex)
 
+
+
     implementation(project(":auth"))
     implementation(project(":firestore"))
     implementation(project(":database"))
     implementation(project(":storage"))
+
+        // FirebaseUI for Firebase Realtime Database
+        implementation ("com.firebaseui:firebase-ui-database:8.0.0")
+
+        // FirebaseUI for Cloud Firestore
+        implementation ("com.firebaseui:firebase-ui-firestore:8.0.0")
+
+        // FirebaseUI for Firebase Auth
+        implementation ("com.firebaseui:firebase-ui-auth:8.0.0")
+
+        // FirebaseUI for Cloud Storage
+        implementation ("com.firebaseui:firebase-ui-storage:8.0.0")
+
 
     implementation(Config.Libs.Provider.facebook)
     // Needed to override Facebook

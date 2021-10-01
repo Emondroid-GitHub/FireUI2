@@ -87,8 +87,8 @@
             <TextView
                 android:id="@+id/email_footer_tos_and_pp_text"
                 style="@style/FirebaseUI.PrivacyFooter"
-                app:layout_constraintTop_toBottomOf="@+id/send_sms_tos"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/send_sms_tos" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
